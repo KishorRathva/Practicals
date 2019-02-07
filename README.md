@@ -19,3 +19,7 @@
 6. Ex6 :
 	* Write a shell script to get the total count of the word “Linux” in all the “.txt” files and 
 	* also across files present in subdirectories.
+
+## HTML -CSS 
+
+1. Website(80% completed) :
