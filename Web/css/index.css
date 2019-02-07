@@ -1,0 +1,153 @@
+body {
+  font-family:  Helvetica, sans-serif;
+}
+
+.navibar {
+  overflow: hidden;
+  background-color:#F4F6F6   
+ 
+}
+.navibar img {
+  height: 50px;
+  padding-left: 100px;
+}
+.navibar a {
+  float: right;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  padding: 30px;
+  text-decoration:none;
+}
+
+.Dropdown {
+  float:right;
+  overflow: hidden;
+}
+
+.Dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #000000 ;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navibar a:hover, .Dropdown:hover .dropbtn {
+  background-color: #3498DB;
+  color: #FDFEFE  ;
+}
+
+.dropdown-content {
+  display:none;
+  position: absolute;
+  background-color: #F4F6F6 ;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  float:none;
+  color: black;
+  
+  text-decoration: none;
+  display:block;
+  text-align: center;
+
+}
+
+.dropdown-content a:hover {
+  background-color: #3498DB ;
+  z-index:1;
+  position: relative;
+}
+
+.Dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+}
+
+.section1 , .section2{
+  height: 242px;
+
+}
+.section2 i {
+    position: relative;
+    padding: 20px;
+    margin: 80px;
+    font-size: 3em;
+    color:white ;
+    background-color:#3498DB;
+    border-radius: 5px;
+
+}
+.section3 {
+	    background-color:#F4F6F6 
+}
+#imgoverlay
+{
+  display: none;
+}
+#imagebox:hover  > #imgoverlay
+{
+  display: block;
+  border-radius: 5px;
+
+
+}
+#imagebox {
+	border-radius: 5px;
+}
+#contact{
+	background:url('./img/248159.jpg');
+  background-size: cover;
+}
+.form input textarea {
+	align-content: center;
+	text-align: center;
+	display: block;
+	width: 200px;
+	box-sizing: border-box;
+}
+.section4 {
+	align-content: center;
+	text-align: center;
+	color: white;
+}
+.icn {
+   display:grid;
+}
+.icn span > i {
+  border: 1px solid ;
+  font-size: 1.5em;
+  color: white;
+  padding: 20px;
+  margin:10px;
+  border-radius: 5px;
+
+}
+
+.icn span {
+  margin: auto;
+
+}
+.icn span > i:hover {
+  border: 2px solid black;
+  color: black;
+  border-radius: 5px; 
+}
+
+  input[type="text"],textarea[type="text"],input[type="submit"],input[type="checkbox"]
+{
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+input::-webkit-input-placeholder ,textarea::-webkit-input-placeholder{
+color: white !important;
+}
